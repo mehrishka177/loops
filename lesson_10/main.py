@@ -17,7 +17,7 @@ string = input("Pelease enter your own string")
 string2 = ('')
 #loop for printing in reverse
 for i in string:
-    string = i + string2
+    string2 = i + string2
     
 
 print("\nThe Original String =", string)
