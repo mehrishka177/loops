@@ -22,3 +22,12 @@ for i in string:
 
 print("\nThe Original String =", string)
 print("The Reveresed String = ", string2)
+
+
+n = int(inut("numbers from  to n: "))
+
+print ("numbers from {0} to {1} are: ". format(n,1))
+
+for i in range(n,o,-1):
+    print(i)
+    
