@@ -1,13 +1,13 @@
 import turtle
 turtle.Screen().bgcolor("orange")
 turtle.Screen().setup(300,400)
-pologon = turtle.Turtule()
+polygon = turtle.Turtle()
 
-num_slides = 6
+num_sides = 6
 side_length = 70
-angle = 360.0 / num_slides
+angle = 360.0 / num_sides
 for i in range(num_sides):
     polygon.forward(side_length)
-    pologon.right(angle)
+    polygon.right(angle)
 
 turtle.done()
